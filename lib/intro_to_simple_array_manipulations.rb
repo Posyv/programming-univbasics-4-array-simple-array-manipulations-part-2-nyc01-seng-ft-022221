@@ -15,10 +15,10 @@ def using_flatten (instruments)
   instruments.flatten
 end
 
-# def using_delete (no_offense_steven)
-#   no_offense_steven.delete("Steven")
-# end
+def using_delete (no_offense_steven)
+  no_offense_steven.delete
+end
 
-def using_delete_at (famous_robots.to_s, 2)
+def using_delete_at (famous_robots)
   famous_robots.delete_at(2)
 end
