@@ -19,6 +19,6 @@ def using_delete (array, element)
   array.delete(element)
 end
 
-def using_delete_at (famous_robots)
-  famous_robots.delete_at(2)
+def using_delete_at (famous_robots, uglybot)
+  famous_robots.delete_at(uglybot)
 end
