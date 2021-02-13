@@ -14,3 +14,7 @@ end
 def using_flatten (instruments)
   instruments.flatten
 end
+
+def using_delete (no_offense_steven)
+  no_offense_steven.delete("Steven")
+end
