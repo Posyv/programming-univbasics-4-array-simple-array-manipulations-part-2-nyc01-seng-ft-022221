@@ -15,7 +15,7 @@ def using_flatten (instruments)
   instruments.flatten
 end
 
-def using_delete (no_offense_steven, anything_else)
+def using_delete (array, element)
   no_offense_steven.delete
 end
 
